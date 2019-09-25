@@ -3,4 +3,51 @@ body {
 	color: #8D8D8D;
 	font-size: 18px;
 }
-
+h1,h2,h3,h4,h5,h6 {
+	font-style: normal;
+	font-weight: 700;
+	color:#151515;
+	margin:0;
+	padding:0;
+}
+button {
+	display: block;
+	border:none;
+	background: transparent;
+}
+.nav {
+	margin-top:59px;
+	margin-bottom: 127px;
+}
+.menu {
+	background: transparent;
+	border:none;
+}
+.search {
+	background: transparent;
+	border:none;
+}
+.offer-cont__title {
+	font-size: 60px;
+}
+.offer-cont__text {
+	margin:30px 0 56px;
+	font-size: 18px;
+}
+.btn {
+	background: #3726f2;
+	color:#fff;
+	text-transform: uppercase;
+	font-weight:500;
+	font-size:14px;
+	padding: 13px 26px;
+	display: inline;
+	border-radius: 0;
+	letter-spacing: 0.3em;
+	text-align: center;
+	transition:all 0.5 ease;
+}
+.btn:hover {
+	background: rgb(18, 7, 138);
+	color: #fff;
+}
